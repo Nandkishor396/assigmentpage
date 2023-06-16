@@ -62,7 +62,7 @@
   
   /* Blogs section styles */
   #blogs {
-    background-color: #f1f1f1;
+    background-color: #f1f5f9;
     padding: 50px;
   }
   
@@ -72,9 +72,10 @@
   }
   
   .blog-segment {
+    background-color: #f8fafc;
     margin-bottom: 30px;
     border:2px #333 solid;
-    padding: 5px;
+    padding: 20px;
    
   }
 
@@ -95,7 +96,7 @@
   
   /* News section styles */
   #news {
-    background-color: #af6f32;
+    background-color: #f1f5f9;
     padding: 50px;
   }
   
@@ -106,7 +107,8 @@
   
   .news-article {
     margin-bottom: 30px;
-    background-color: #4e4c4c;
+    background-color: #f8fafc;
+    padding:20px;
   }
   
   .news-article h3 {
@@ -120,7 +122,7 @@
   
   /* Events section styles */
   #events {
-    background-color: #af6f32;
+    background-color: #f1f5f9;
     padding: 50px;
   }
   
@@ -130,8 +132,9 @@
   }
   
   .event {
+    padding:20px;
     margin-bottom: 30px;
-    background-color:#747272;
+    background-color:#f8fafc;
   }
   
   .event h3 {
@@ -145,7 +148,7 @@
   
   /* Jobs section styles */
   #jobs {
-    background-color: #af6f32;
+    background-color: #f1f5f9;
     padding: 50px;
   }
   
