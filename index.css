@@ -1,0 +1,195 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Set font styles */
+  body {
+    background-image: url('image.png');
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    height: 10vh;
+   display: flex;
+   justify-content: space-between;
+  }
+  
+  nav ul {
+    list-style: none;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Home section styles */
+  #home {
+    
+    /* background-color: #7e7c7c; */
+    padding: 50px;
+    text-align: center;
+    background-image: url(sunhu.jpg);
+    background-size: cover;
+     height: 90vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-wrap: wrap;
+     color:#f0e9ef;
+     
+     
+  }
+  
+  #home h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+  }
+  
+  /* Blogs section styles */
+  #blogs {
+    background-color: #f1f1f1;
+    padding: 50px;
+  }
+  
+  #blogs h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .blog-segment {
+    margin-bottom: 30px;
+    border:2px #333 solid;
+    padding: 5px;
+   
+  }
+
+
+  .blog-segment h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .blog-segment ul {
+    list-style: disc;
+    margin-left: 20px;
+  }
+  
+  .blog-segment ul li {
+    margin-bottom: 5px;
+  }
+  
+  /* News section styles */
+  #news {
+    background-color: #af6f32;
+    padding: 50px;
+  }
+  
+  #news h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .news-article {
+    margin-bottom: 30px;
+    background-color: #4e4c4c;
+  }
+  
+  .news-article h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .news-article p {
+    margin-bottom: 10px;
+  }
+  
+  /* Events section styles */
+  #events {
+    background-color: #af6f32;
+    padding: 50px;
+  }
+  
+  #events h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .event {
+    margin-bottom: 30px;
+    background-color:#747272;
+  }
+  
+  .event h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .event p {
+    margin-bottom: 10px;
+  }
+  
+  /* Jobs section styles */
+  #jobs {
+    background-color: #af6f32;
+    padding: 50px;
+  }
+  
+  #jobs h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Common link styles */
+  a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  mark{
+    background-color: aquamarine;
+  }
+  footer{
+    height: 250px;
+    background-color: black;
+  }
+  footer div a{
+    margin-left: 10px;
+    margin-top: 10px;
+    color: #f1f1f1;
+  }
+  .footer1{
+    margin-top: 30px;
+    margin-left: 200px;
+    position: absolute;
+  }
+  .footer2{
+    position: relative;
+    margin-left: 600px;
+    padding-top: 30px;
+  }
+  #b{
+    padding-left: 450px;
+    padding-top: 70px;
+    
+    font-size: 50px;
+    height : 40vh;
+    background-color: burlywood;
+  }
